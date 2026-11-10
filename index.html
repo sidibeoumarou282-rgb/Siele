@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SIELE : Conseil, Expertise, Formation à Abidjan</title>
+<meta name="description" content="SIELE, société ivoirienne basée à Cocody (Abidjan) : formation, archivage et GED, conseil aux entreprises, gestion de projet, agriculture et assurance.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="pre"><div><img src="img/logo.png" alt="SIELE"><i></i></div></div>
+<div id="prog"></div>
+<div id="glow"></div>
+
+<header>
+  <div class="hd">
+    <a class="logo" href="#top"><img src="img/logo.png" alt="Logo SIELE"></a>
+    <div class="hd-info">
+      <div></div>
+      <div></div>
+    </div>
+
+    <div class="menu">
+      <button class="burger" id="burger" aria-label="Menu" aria-expanded="false" aria-controls="nav">☰</button>
+      <nav id="nav">
+        <a href="#top">Accueil</a>
+        <a href="#domaines">Domaines</a>
+        <a href="#formation" data-open="formation">Formation</a>
+        <a href="#food">SIELE Food</a>
+        <a href="#contact" class="nav-cta">Contact</a>
+      </nav>
+    </div>
+  </div>
+<a class="rb" href="#contact" aria-label="Contact">✉</a>
+</header>
+
+<div class="hero" id="top">
+  <div class="hero-bg" id="hbg"><img src="img/4.jpeg" alt="" class="on"><img src="img/14.jpeg" alt=""><img src="img/19.jpeg" alt=""><img src="img/7.jpeg" alt=""><img src="img/44.png" alt=""><img src="img/28.jpeg" alt=""><img src="img/35.png" alt=""><img src="img/45.png" alt=""></div>
+  <div class="hero-veil"></div>
+  <div class="hero-in">
+    <h1 class="mega" aria-label="SIELE"><span style="--i:0" aria-hidden="true">S</span><span style="--i:1" aria-hidden="true">I</span><span style="--i:2" aria-hidden="true">E</span><span style="--i:3" aria-hidden="true">L</span><span style="--i:4" aria-hidden="true">E</span></h1>
+    <p class="sub">Votre partenaire de croissance à Abidjan.</p>
+    <aside class="hero-card">
+      <p>Formation, archivage numérique, <b>gestion de projet</b>, agriculture et assurance.</p>
+      <p>Un seul interlocuteur pour atteindre de nouveaux sommets dans la <b>performance</b> et la <b>croissance</b> de votre entreprise.</p>
+      <a class="btn p pill" href="#contact">Demander un devis</a>
+    </aside>
+  </div>
+  <div class="ci-s" aria-label="Nos domaines">
+      <button class="ar2" data-sl="-1" aria-label="Précédent"></button>
+      <div class="ci-track" id="track"><a class="ci-card" href="#domaines" data-open="formation"><img src="img/4.jpeg" alt="Formation"><span>Formation</span></a><a class="ci-card" href="#domaines" data-open="archivage"><img src="img/7.jpeg" alt="Archivage &amp; GED"><span>Archivage &amp; GED</span></a><a class="ci-card" href="#domaines" data-open="gestion"><img src="img/14.jpeg" alt="Gestion d'entreprise"><span>Gestion d'entreprise</span></a><a class="ci-card" href="#domaines" data-open="agricole"><img src="img/19.jpeg" alt="Gestion agricole"><span>Gestion agricole</span></a><a class="ci-card" href="#domaines" data-open="projet"><img src="img/44.png" alt="Gestion de projet"><span>Gestion de projet</span></a><a class="ci-card" href="#domaines" data-open="assurance"><img src="img/45.png" alt="Assurance"><span>Assurance</span></a><a class="ci-card" href="#domaines" data-open="vehicules"><img src="img/28.jpeg" alt="Véhicules &amp; fournitures"><span>Véhicules &amp; fournitures</span></a><a class="ci-card" href="#domaines" data-open="communication"><img src="img/35.png" alt="Communication &amp; immobilier"><span>Communication &amp; immobilier</span></a></div>
+      <button class="ar2 r" data-sl="1" aria-label="Suivant"></button>
+      <div class="ci-cnt"><span id="cc">01</span> / 08</div>
+    </div>
+  <div class="mark" aria-hidden="true">Conseil, Expertise & Formation</div>
+  <div class="bar">
+    <form id="quote" onsubmit="return sendQuote(event)">
+      <input name="nom" placeholder="Votre nom" required>
+      <input name="tel" type="tel" placeholder="Téléphone" required>
+      <select name="domaine" required>
+        <option value="">Domaine</option>
+        <option>Formation</option>
+        <option>Archivage et GED</option>
+        <option>Gestion d'entreprise</option>
+        <option>Gestion agricole</option>
+        <option>Gestion de projet</option>
+        <option>Assurance / Commercial</option>
+        <option>Véhicules et fournitures</option>
+        <option>Communication et immobilier</option>
+      </select>
+      <select name="nb">
+        <option value="">Nombre de personnes</option>
+        <option>1 à 5</option><option>6 à 20</option><option>21 à 50</option><option>Plus de 50</option>
+      </select>
+      <input name="date" type="date" aria-label="Date souhaitée">
+      <button class="btn p" type="submit">Envoyer la demande</button>
+    </form>
+  </div>
+</div>
+
+<div class="mq" aria-hidden="true"><div class="mqt"><span>Formation</span><em>✦</em><span>Archivage &amp; GED</span><em>✦</em><span>Gestion d'entreprise</span><em>✦</em><span>Gestion agricole</span><em>✦</em><span>Gestion de projet</span><em>✦</em><span>Assurance</span><em>✦</em><span>Véhicules &amp; fournitures</span><em>✦</em><span>Communication &amp; immobilier</span><em>✦</em><span>Formation</span><em>✦</em><span>Archivage &amp; GED</span><em>✦</em><span>Gestion d'entreprise</span><em>✦</em><span>Gestion agricole</span><em>✦</em><span>Gestion de projet</span><em>✦</em><span>Assurance</span><em>✦</em><span>Véhicules &amp; fournitures</span><em>✦</em><span>Communication &amp; immobilier</span><em>✦</em></div></div>
+
+<div class="stats">
+  <b class="bgw" aria-hidden="true">SIELE</b>
+  <div class="wrap">
+    <div class="stat"><b data-count="2008">2008</b><span>Création de la société à Cocody, Abidjan</span></div>
+    <div class="stat"><b data-count="8">8</b><span>Domaines, de la formation à l'immobilier</span></div>
+    <div class="stat"><b data-count="9">9</b><span>Programmes de formation professionnelle</span></div>
+    <div class="stat"><b>SARL</b><span>Capital 1 000 000 F CFA ; RCCM CI-ABJ-2008-B-4768</span></div>
+  </div>
+</div>
+<section id="domaines">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="eyebrow">Nos domaines d'intervention</div>
+      <h2>Huit métiers, une même exigence</h2>
+      <p>Du conseil en gestion à l'archivage documentaire, SIELE accompagne entreprises, institutions et porteurs de projets.</p>
+    </div>
+    <div class="mos">
+      <article class="card tile t1 reveal" data-open="formation" data-rep="d4" tabindex="0" role="button"><img src="img/4.jpeg" alt="Formation"><i class="go">↗</i><div class="tl"><small>01</small><h3>Formation</h3><ul><li>Management général et des projets</li><li>Comptabilité et finance</li><li>Fiscalité</li><li>Secrétariat et assistanat de direction</li></ul><span class="more">Explorer</span></div></article>
+      <article class="card tile t2 reveal" data-open="archivage" data-rep="d7" tabindex="0" role="button"><img src="img/7.jpeg" alt="Archivage"><i class="go">↗</i><div class="tl"><small>02</small><h3>Archivage &amp; GED</h3><ul><li>Organisation d'un service d'archives</li><li>Numérisation des documents</li><li>Solution informatique : GED</li><li>Audit archivistique</li></ul><span class="more">Explorer</span></div></article>
+      <article class="card tile t3 reveal" data-open="gestion" data-rep="d14" tabindex="0" role="button"><img src="img/14.jpeg" alt="Gestion d'entreprise"><i class="go">↗</i><div class="tl"><small>03</small><h3>Gestion d'entreprise</h3><ul><li>Conseils et suivi d'entreprises</li><li>Étude de faisabilité</li><li>Étude de marché</li></ul><span class="more">Explorer</span></div></article>
+      <article class="card tile t4 reveal" data-open="agricole" data-rep="d19" tabindex="0" role="button"><img src="img/19.jpeg" alt="Agriculture"><i class="go">↗</i><div class="tl"><small>04</small><h3>Gestion agricole</h3><ul><li>Suivi et conseil en agriculture</li><li>Achat et vente de produits phytosanitaires</li></ul><span class="more">Explorer</span></div></article>
+      <article class="card tile t5 reveal" data-open="projet" data-rep="d44" tabindex="0" role="button"><img src="img/44.png" alt="Gestion de projet"><i class="go">↗</i><div class="tl"><small>05</small><h3>Gestion de projet</h3><ul><li>Identification et élaboration de projets</li><li>Suivi et évaluation</li><li>Prospection</li></ul><span class="more">Explorer</span></div></article>
+      <article class="card tile t6 reveal" data-open="assurance" data-rep="d45" tabindex="0" role="button"><img src="img/45.png" alt="Assurance"><i class="go">↗</i><div class="tl"><small>06</small><h3>Assurance</h3><ul><li>Conseils et vente de produits d'assurance</li><li>Intermédiation commerciale</li></ul><span class="more">Explorer</span></div></article>
+      <article class="card tile t7 reveal" data-open="vehicules" data-rep="d28" tabindex="0" role="button"><img src="img/28.jpeg" alt="Location de véhicules"><i class="go">↗</i><div class="tl"><small>07</small><h3>Véhicules &amp; fournitures</h3><ul><li>Location de véhicules</li><li>Mobilier de bureau</li><li>Consommables informatiques</li></ul><span class="more">Explorer</span></div></article>
+      <article class="card tile t8 reveal" data-open="communication" data-rep="d35" tabindex="0" role="button"><img src="img/35.png" alt="Communication"><i class="go">↗</i><div class="tl"><small>08</small><h3>Communication</h3><ul><li>Impression sur supports</li><li>Gestion et promotion immobilière</li></ul><span class="more">Explorer</span></div></article>
+      </div>
+  </div>
+</section>
+
+<section id="formation" class="white">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="eyebrow">Formation professionnelle</div>
+      <h2>Neuf programmes pour monter en compétence</h2>
+      <p>Des sessions animées par des experts, pour les équipes comme pour les particuliers.</p>
+    </div>
+    <div class="fcards"><article class="fcard reveal" data-open="formation:0" tabindex="0" role="button"><img src="img/4.jpeg" alt="Management &amp; projets"><div><h3>Management &amp; projets</h3><p>Piloter une équipe, une activité et des projets avec méthode.</p><span class="more">Voir le détail</span></div></article><article class="fcard reveal" data-open="formation:1" tabindex="0" role="button"><img src="img/3.jpeg" alt="Comptabilité &amp; finance"><div><h3>Comptabilité &amp; finance</h3><p>Maîtriser les fondamentaux comptables et financiers de l'entreprise.</p><span class="more">Voir le détail</span></div></article><article class="fcard reveal" data-open="formation:4" tabindex="0" role="button"><img src="img/31.jpeg" alt="Secrétariat &amp; assistanat"><div><h3>Secrétariat &amp; assistanat</h3><p>Devenir l'appui efficace d'une direction.</p><span class="more">Voir le détail</span></div></article><article class="fcard reveal" data-open="formation:7" tabindex="0" role="button"><img src="img/43.png" alt="Commercial &amp; marketing"><div><h3>Commercial &amp; marketing</h3><p>Vendre mieux et développer son portefeuille clients.</p><span class="more">Voir le détail</span></div></article></div>
+    <div class="fmore"><a class="btn p pill" href="#formation" data-open="formation">Voir les 9 formations</a></div>
+    <div class="pills">
+        <span data-open="formation:0">Management &amp; projets</span><span data-open="formation:1">Comptabilité &amp; finance</span><span data-open="formation:2">Fiscalité</span><span data-open="formation:3">RH &amp; droit du travail</span><span data-open="formation:4">Secrétariat &amp; assistanat</span><span data-open="formation:5">Audit &amp; contrôle de gestion</span><span data-open="formation:6">Assurance banque</span><span data-open="formation:7">Commercial &amp; marketing</span><span data-open="formation:8">Logistique &amp; transport</span>
+      </div>
+  </div>
+</section>
+
+<section id="contact" class="ctsec">
+  <div class="wrap">
+    <div class="ctbig">
+      <div class="eyebrow">Nous contacter</div>
+      <h2>Discutons de votre projet</h2>
+      <p>Une formation à organiser, un projet à évaluer, un devis à demander&nbsp;? Écrivez-nous ou appelez-nous, nous répondons rapidement.</p>
+      <div class="btns">
+        <a class="btn w" href="tel:+2250757653851">Appeler</a>
+        <a class="btn w" href="https://wa.me/2250757653851" target="_blank" rel="noopener">WhatsApp</a>
+        <a class="btn w" href="mailto:entreprisesiele@gmail.com">E-mail</a>
+      </div>
+    </div>
+    <ul class="cinfo">
+      <li><small>Email</small><a href="mailto:entreprisesiele@gmail.com">entreprisesiele@gmail.com</a></li>
+      <li><small>Téléphone / Fax</small>27 22 52 54 64</li>
+      <li><small>Mobile</small>07 57 65 38 51 / 05 05 94 38 30</li>
+      <li><small>Adresse</small>Cocody II Plateaux - 27 BP 1003 Abidjan 27</li>
+      <li><small>Statut juridique</small>SARL - RCCM CI-ABJ-2008-B-4768</li>
+    </ul>
+  </div>
+</section>
+
+<section id="food" class="foodsec">
+  <div class="wrap fsplit">
+    <div class="fcopy">
+      <div class="eyebrow">SIELE Food</div>
+      <h2>Vos pauses café et déjeuners de séminaire</h2>
+      <p>Plats chauds, poissons braisés, brochettes, viennoiseries et fruits frais : des menus adaptés à la taille de votre groupe.</p>
+      <div class="btns"><a class="btn sun pill" href="#food" data-open="food:0">Déjeuner</a><a class="btn ghost pill" href="#food" data-open="food:1">Pause café</a><a class="btn ghost pill" href="#contact">Demander un devis</a></div>
+    </div>
+    <div class="fsl" id="fsl"><img src="img/A.jpeg" alt="Déjeuner SIELE Food" class="on"><img src="img/R.jpeg" alt=""><img src="img/P.jpeg" alt=""><img src="img/Z1.jpeg" alt=""><img src="img/L.jpeg" alt=""><img src="img/N.jpeg" alt=""><img src="img/U.jpeg" alt=""><img src="img/T.jpeg" alt=""><img src="img/S.jpeg" alt=""><img src="img/X.jpeg" alt=""></div>
+  </div>
+</section>
+
+<footer>© 2026 SIELE : Société Internationale d'Expertise et Libre Entreprise ; Cocody II Plateaux, Abidjan</footer>
+
+<a class="wa" href="https://wa.me/2250757653851" target="_blank" rel="noopener" aria-label="Écrire sur WhatsApp"><span>💬</span><b>WhatsApp</b></a>
+
+<div class="ex" id="ex" role="dialog" aria-modal="true" aria-label="Explorer nos domaines">
+  <div class="ex-top"><span class="lg"><b>S</b>IELE</span><div class="chips" id="chips"></div><button class="x" data-close aria-label="Fermer">Retour</button></div>
+  <div class="ex-body" id="exb"></div>
+</div>
+<script src="js/script.js"></script>
+</body>
+</html>
